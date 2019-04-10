@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Новостная страница с ID - <%= newsId %></h1>
+    <p><%= newParam %></p>
+    <ul>
+        <li><%= obj.title%></li>
+        <li><%= obj.id%></li>
+    </ul>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis, fugit. Ad exercitationem eveniet quaerat suscipit aliquam numquam labore quos qui vero ut ea maiores, deserunt atque modi, quae quas assumenda doloremque veniam quod. Atque magni praesentium recusandae, tempore, aspernatur nulla iure, quisquam officiis repellat velit deserunt saepe quo incidunt iusto?</p>
+    <ul>
+        <% obj.paragraph.forEach(item => { %> 
+            <li><%= item %></li>
+            <% }); %>
+    </ul>
+</body>
+</html>
