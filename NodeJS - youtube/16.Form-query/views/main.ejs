@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Заголовок страницы</title>
+    <link rel="stylesheet" href="../public/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body class="body">
+     <% include header.ejs %>
+
+    <h1>Страница 1</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi cum architecto eum explicabo pariatur unde ducimus magnam illum quibusdam optio consectetur similique neque nobis nisi at fugit officia, nostrum blanditiis!
+    At tempore ab et ipsam laudantium dignissimos recusandae magni consectetur aliquid. Iure magnam delectus nesciunt laboriosam veritatis, modi optio maiores? Placeat doloremque at doloribus. Ex ducimus atque reprehenderit incidunt. Possimus.
+    Ea non debitis eum aspernatur iure hic totam beatae a! Molestias dolore quam aliquid exercitationem ex illum nobis adipisci? In voluptas ab dolores non, inventore natus dolor nisi debitis laboriosam.
+    Vero error ullam voluptate, quo maxime animi sit, magni similique minus facilis fugiat iure neque ex excepturi sequi. Ab earum cupiditate omnis rem ex exercitationem ipsa mollitia non sapiente reiciendis.
+    Ut optio quas soluta est exercitationem minima quos error nihil, enim eveniet sequi et, impedit aperiam officiis maxime vel ducimus quae laborum aliquam quibusdam rem quam dolor nobis? Officiis, excepturi.</p>
+
+    <form method="post" action ="/main">
+        <div class="form-group">
+          <label for="exampleInputEmail1">Email address</label>
+          <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1">Password</label>
+          <input type="password" name="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+        </div>
+        <div class="form-group form-check">
+          <input type="checkbox" name="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+</body>
+</html>

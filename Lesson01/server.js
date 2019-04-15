@@ -20,11 +20,6 @@ const express = require('express');
 const startServer = port => {
     const server = express();
 
-    server.post('/', (req,res) => {
-        // res.send('привет');
-        res.send('Это метод POST')
-    });
-    
     server.listen(port, ()=>{
         console.log(`Сервер работает на порту ${port}`);
     });
